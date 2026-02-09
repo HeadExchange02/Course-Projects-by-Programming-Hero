@@ -8,6 +8,8 @@ var cgpa = 3.30;
 
 var diuStudent = true;
 
+var results = [11, 22 , 33];
+
 
 
 console.log(name)
@@ -24,5 +26,8 @@ console.log(typeof cgpa)
 
 console.log(diuStudent)
 console.log(typeof diuStudent)
+
+console.log(results)
+console.log(typeof results)
 
 console.log( batch + roll )
