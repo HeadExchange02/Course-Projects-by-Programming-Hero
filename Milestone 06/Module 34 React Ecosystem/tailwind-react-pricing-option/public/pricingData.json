@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 999,
+    "duration": "1 Month",
+    "info": "Perfect for beginners starting their fitness journey.",
+    "features": [
+      "Access to gym equipment",
+      "Locker facility",
+      "1 fitness assessment",
+      "Cardio area access",
+      "Standard working hours access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 2499,
+    "duration": "3 Months",
+    "info": "Great for regular users who want consistency.",
+    "features": [
+      "All Basic features",
+      "Personal trainer (2 sessions/week)",
+      "Diet plan guidance",
+      "Group classes access",
+      "Extended gym hours"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 4499,
+    "duration": "6 Months",
+    "info": "Best value for committed fitness enthusiasts.",
+    "features": [
+      "All Standard features",
+      "Unlimited personal trainer support",
+      "Custom diet plan",
+      "Steam & sauna access",
+      "Body composition tracking"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Elite Plan",
+    "price": 7999,
+    "duration": "12 Months",
+    "info": "Full access with VIP-level services.",
+    "features": [
+      "All Premium features",
+      "24/7 gym access",
+      "Dedicated personal trainer",
+      "Supplement guidance",
+      "Priority support"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Student Plan",
+    "price": 799,
+    "duration": "1 Month",
+    "info": "Affordable option for students.",
+    "features": [
+      "Access to gym equipment",
+      "Cardio area access",
+      "Locker facility",
+      "Limited hours access",
+      "Student ID required"
+    ]
+  }
+]
