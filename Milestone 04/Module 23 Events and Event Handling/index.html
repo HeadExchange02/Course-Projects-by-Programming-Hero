@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Events</title>
+
+
+    <style>
+
+        body{
+            background-color: gray;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div>
+
+        <h1>Welcome To Dom Events</h1>
+        <h1>Well</h1>
+        <h1>Well</h1>
+        <h1>Well</h1>
+
+    </div>
+    
+    <!-- Event Handeler -->
+    <div>
+
+        <button onclick ="console.log(7)">Press to get 7</button>
+
+        <button onclick ="console.log('Clicked')">Click Me</button>
+
+    </div>
+
+    <br>
+
+    <!-- Event Handeler With Function-->
+    <div>
+
+        <button onclick ="fillYellow()">Fill color with Yellow</button>
+
+        <button onclick ="fillRed()">Fill color with red</button>
+
+        <button onclick ="fillGreen()">Fill color with Green</button>
+
+        <br>
+
+        <br>
+
+        <button id="btn-make-blue">Fill color with Blue</button>
+
+        <button id="btn-make-purple">Fill color with Purple</button>
+
+    </div>
+
+
+    <br>
+
+    <!-- .addEventListener('click', function(){}) -->
+    <div>
+
+        <button id="btn-make-gold">make gold</button>
+
+        <button id="btn-make-black">make black</button>
+
+        <button id="btn-make-white">make white</button>
+
+    </div>
+
+
+    <script>
+
+        //  Event Handeler With Function
+        function fillYellow(){
+        document.body.style.backgroundColor = 'yellow';
+        }
+    </script>
+
+    <script src="JS/events.js"></script>
+</body>
+</html>

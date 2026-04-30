@@ -1,0 +1,31 @@
+.cards-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border: 2px solid sandybrown;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(51, 48, 48, 0.637);
+}
+.card:hover{
+    background-color: antiquewhite;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card button{
+    padding: 10px 20px;
+    color: white;
+    background-color: sandybrown;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: rgb(255, 145, 0);
+}

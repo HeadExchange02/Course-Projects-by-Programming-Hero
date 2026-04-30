@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble</title>
+</head>
+<body>
+    <h1>Event Bubble</h1>
+    <section>
+        <h3>List of things</h3>
+
+        <!-- ul>li#item-$*6>lorem2 -->
+        <ol id="item-list">
+
+            <li id="item-1">Lorem, ipsum.</li>
+            <li id="item-2">Dicta, inventore?</li>
+            <li id="item-3">Expedita, iste.</li>
+            <li id="item-4">Minima, distinctio!</li>
+            <li id="item-5">Sint, ipsa.</li>
+            <li id="item-6">Quas, expedita.</li>
+
+        </ol>
+    </section>
+
+
+
+    <script>
+        // li click handler
+        document.getElementById('item-1')
+            .addEventListener('click', function(){
+                console.log('item-1 cliked')
+            })
+            
+        // li click handler
+        document.getElementById('item-2')
+            .addEventListener('click', function(){
+                console.log('item-2 cliked')
+            })
+            
+        // li click handler
+        document.getElementById('item-3')
+            .addEventListener('click', function(){
+                console.log('item-3 cliked')
+            })
+            
+        // ol click handler
+        document.getElementById('item-list')
+            .addEventListener('click', function(){
+                console.log('ol cliked')
+            })
+
+
+    </script>
+
+</body>
+</html>
